@@ -2,7 +2,7 @@ class Cat:
     def __init__(self, name, age, gender):
         self.name = name
         self.age = age
-        self.sex = gender
+        self.gender = gender
     def getName(self):
         return self.name
     def getAge(self):
