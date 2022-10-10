@@ -9,3 +9,5 @@ class Cat:
         return self.age
     def getGender(self):
         return self.gender
+    def Display(self):
+        print(self.gender,self.age,self.name)
